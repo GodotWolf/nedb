@@ -747,7 +747,9 @@ echo "Cantidad de apartamentos donde solo vive una persona: ".count(apartamentos
 			$bombona['ID'] = $row['ID'];
 			$bombona['ID_FAMILIA'] = $row['ID_FAMILIA'];
 			$bombona['ID_MARCA'] = $row['ID_MARCA'];
+			$bombona['MARCA'] = $row['MARCA'];
 			$bombona['ID_TIPO'] = $row['ID_TIPO'];
+			$bombona['TIPO'] = $row['TIPO'];
 			$bombona['NOMBRE_JEFE'] = $row['NOMBRES']." ".$row['APELLIDOS'];
 			}
 		$conn->close();
